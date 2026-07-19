@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t">
+  <title id="t">Место для фото щенка сиба-ину</title>
+  <rect width="800" height="600" fill="#f1e9dd"/>
+  <circle cx="400" cy="250" r="130" fill="#f3ddd2"/>
+  <path d="M400 170c-22 0-38 22-38 44 0 14 7 28 7 34l-64 36c-22 14-36 36-36 62 0 56 58 92 131 92s131-36 131-92c0-26-14-48-36-62l-64-36c0-6 7-20 7-34 0-22-16-44-38-44z" fill="#c1502e" opacity="0.85"/>
+  <circle cx="372" cy="248" r="9" fill="#241f1a"/>
+  <circle cx="428" cy="248" r="9" fill="#241f1a"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#8a7f70">Фотография питомника появится здесь</text>
+</svg>

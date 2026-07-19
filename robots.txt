@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: pitomnik-siba-inu.ru
+Sitemap: https://pitomnik-siba-inu.ru/sitemap.xml
