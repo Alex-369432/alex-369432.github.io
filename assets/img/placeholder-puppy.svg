@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" role="img" aria-labelledby="t">
+  <title id="t">Место для фото щенка</title>
+  <rect width="400" height="300" fill="#f1e9dd"/>
+  <circle cx="200" cy="120" r="66" fill="#f3ddd2"/>
+  <path d="M200 70c-11 0-19 11-19 22 0 7 3 14 3 17l-32 18c-11 7-18 18-18 31 0 28 29 46 66 46s66-18 66-46c0-13-7-24-18-31l-32-18c0-3 3-10 3-17 0-11-8-22-19-22z" fill="#c1502e" opacity="0.85"/>
+  <circle cx="186" cy="118" r="4.5" fill="#241f1a"/>
+  <circle cx="214" cy="118" r="4.5" fill="#241f1a"/>
+  <text x="200" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#8a7f70">Фото щенка добавим позже</text>
+</svg>
