@@ -326,6 +326,8 @@ section.block.alt { background: var(--color-bg-alt); }
   font-size: 1.1rem;
 }
 .video-review-card p { margin: 10px 0 0; font-size: 0.92rem; font-weight: 600; }
+.video-thumb.no-image { background: var(--color-accent-soft); display: flex; align-items: center; justify-content: center; }
+.video-thumb.no-image .video-play { position: static; transform: none; }
 
 /* ---------- Forms ---------- */
 .form-field { margin-bottom: 16px; }
