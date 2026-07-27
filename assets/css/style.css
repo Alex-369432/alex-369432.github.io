@@ -260,6 +260,7 @@ section.block.alt { background: var(--color-bg-alt); }
 .badge-available { background: var(--color-success-bg); color: var(--color-success); }
 .badge-reserved { background: var(--color-warn-bg); color: var(--color-warn); }
 .puppy-photo .badge { position: absolute; top: 12px; left: 12px; }
+.puppy-body > .badge { margin-bottom: 10px; }
 
 /* ---------- Price table ---------- */
 .price-table { width: 100%; border-collapse: collapse; background: var(--color-surface); border-radius: var(--radius-m); overflow: hidden; box-shadow: var(--shadow-card); }
