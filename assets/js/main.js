@@ -25,19 +25,4 @@
   // Открыть первый FAQ-блок на каждой странице по умолчанию для UX
   var firstFaq = document.querySelector(".faq-q");
   if (firstFaq) firstFaq.click();
-
-  // Простая обработка форм без бэкенда: показать сообщение об успехе.
-  // ВАЖНО: перед публикацией подключите реальный обработчик формы
-  // (email-сервис, CRM или action на серверный обработчик).
-  document.querySelectorAll("form[data-contact-form]").forEach(function (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var success = form.parentElement.querySelector(".form-success");
-      if (success) {
-        success.classList.add("is-visible");
-        success.setAttribute("role", "status");
-      }
-      form.reset();
-    });
-  });
 })();

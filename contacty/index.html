@@ -82,22 +82,24 @@
         </ul>
 
         <h2>Форма обратной связи</h2>
-        <div class="form-success" role="status">Спасибо! Сообщение отправлено (демо-режим формы — подключите реальный обработчик перед публикацией).</div>
-        <form data-contact-form>
+        <form action="https://formsubmit.co/pitomnikpochta@mail.ru" method="POST">
+          <input type="hidden" name="_subject" value="Новая заявка с сайта Nord Heart">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
           <div class="form-field">
             <label for="name">Имя</label>
-            <input type="text" id="name" name="name" autocomplete="name" required>
+            <input type="text" id="name" name="Имя" autocomplete="name" required>
           </div>
           <div class="form-field">
             <label for="phone">Телефон или мессенджер</label>
-            <input type="text" id="phone" name="phone" autocomplete="tel" required>
+            <input type="text" id="phone" name="Телефон" autocomplete="tel" required>
           </div>
           <div class="form-field">
             <label for="message">Сообщение</label>
-            <textarea id="message" name="message" rows="4" placeholder="Например: интересует щенок девочка, рыжий окрас"></textarea>
+            <textarea id="message" name="Сообщение" rows="4" placeholder="Например: интересует щенок девочка, рыжий окрас"></textarea>
           </div>
           <button class="btn btn-primary" type="submit">Отправить</button>
-          <p class="form-note">Нажимая «Отправить», вы соглашаетесь с <a href="/politika-konfidentsialnosti/">политикой конфиденциальности</a>. Форма демонстрационная — перед публикацией подключите реальную отправку данных (email-сервис, CRM или серверный обработчик).</p>
+          <p class="form-note">Нажимая «Отправить», вы соглашаетесь на обработку указанных данных для связи с вами по вопросу покупки щенка.</p>
         </form>
       </div>
 
@@ -152,7 +154,6 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 Nord Heart. Все права защищены.</span>
-      <a href="/politika-konfidentsialnosti/">Политика конфиденциальности</a>
     </div>
   </div>
 </footer>
