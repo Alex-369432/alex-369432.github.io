@@ -360,6 +360,19 @@ section.block.alt { background: var(--color-bg-alt); }
 .site-footer a { color: #cfc7bc; text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .footer-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; font-size: 0.92rem; }
+/* ---------- Мессенджер-кнопки (контакты) ---------- */
+.msg-cta { display: flex; flex-direction: column; gap: 10px; }
+.btn-msg { color: #fff; border: none; }
+.btn-msg:hover { color: #fff; filter: brightness(0.93); }
+.btn-wa { background: #25D366; }
+.btn-tg { background: #229ED9; }
+.btn-max { background: #7c2d3a; }
+.btn-vk { background: #0077FF; }
+.btn-sms { background: #5b667a; }
+.msg-template { margin-top: 18px; padding: 14px 16px; background: var(--color-bg-alt); border-radius: var(--radius-m); }
+.msg-template-text { margin: 0 0 12px; font-weight: 600; color: var(--color-text); }
+.msg-template .btn-sm { background: var(--color-surface); }
+
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.12); margin-top: 30px; padding-top: 20px;
   display: flex; flex-wrap: wrap; gap: 10px 20px; justify-content: space-between; font-size: 0.82rem; color: #a89d8f;
