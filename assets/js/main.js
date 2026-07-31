@@ -55,4 +55,21 @@
     try { document.execCommand("copy"); done(); } catch (e) {}
     document.body.removeChild(ta);
   }
+
+  // Цели Метрики: клики по мессенджерам/звонку — считаем отдельно по каждому каналу.
+  var YM_COUNTER_ID = 61801342;
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest("a");
+    if (!a || !a.href) return;
+    var href = a.href;
+    var goal = null;
+    if (href.indexOf("wa.me") !== -1) goal = "click_whatsapp";
+    else if (href.indexOf("t.me") !== -1) goal = "click_telegram";
+    else if (href.indexOf("max.ru") !== -1) goal = "click_max";
+    else if (href.indexOf("vk.ru") !== -1 || href.indexOf("vk.com") !== -1) goal = "click_vk";
+    else if (href.indexOf("instagram.com") !== -1) goal = "click_instagram";
+    else if (href.indexOf("sms:") === 0) goal = "click_sms";
+    else if (href.indexOf("tel:") === 0) goal = "click_phone";
+    if (goal && typeof ym === "function") ym(YM_COUNTER_ID, "reachGoal", goal);
+  });
 })();
