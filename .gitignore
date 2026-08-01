@@ -1,6 +1,8 @@
 # Случайные скриншоты/фото, которые иногда попадают в папку проекта
 photo_*_y.jpg
+photo_*_y*.jpg
 photo_*_y.jpeg
+photo_*_y*.jpeg
 IMG_*.JPG
 IMG_*.jpg
 *.jfif
