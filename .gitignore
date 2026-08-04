@@ -11,3 +11,10 @@ IMG_*.jpg
 # Системные файлы
 Thumbs.db
 .DS_Store
+
+# Внутренние рабочие заметки — репозиторий ПУБЛИЧНЫЙ, им здесь не место
+NOTES.md
+SEO_AUDIT.md
+SEO_PLAN.md
+SEO_RESEARCH.md
+*.local.md
